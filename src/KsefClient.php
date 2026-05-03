@@ -23,9 +23,6 @@ final class KsefClient
     {
     }
 
-    /**
-     * @deprecated Use ClientOptions for custom construction.
-     */
     public static function create(
         ?ClientOptions $options = null,
     ): self {
